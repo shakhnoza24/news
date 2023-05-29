@@ -1,0 +1,157 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+.menu__item a{
+    color: #3A3838;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    transition: 300ms;
+}
+
+.menu__item a:hover{
+    color: #EF4423;
+}
+
+.news__item-1{
+    background:  #B71C1C;
+    width: 100%;
+}
+.news__item-2{
+    background: #6A1B9A;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.news__item-3{
+    background: #303F9F;
+    width: 100%;
+}
+.news__item-4{
+    background: #00695C;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.news__wrap img{
+    width: 100%;
+}
+
+.news__item-desc{
+    padding: 8px 15px 15px 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.news__item-h{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.news__item-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.news__wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.mainnews{
+   background: #EDEDED;
+   margin-bottom: 50px;
+}
+
+.mainnews__title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 40px 400px;
+    text-align: center;
+}
+
+.mainnews__wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.mainnews__desc{
+    padding: 20px 145px 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mainnews__desc-h{
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+width: 540px;
+}
+
+.mainnews__desc-p{
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
+
+.footer{
+    background: #3A3838;
+    color: white;
+    padding: 28px 0;
+}
+
+.menu__item-footer a{
+    color: white;
+    transition: 300ms;
+    font-size: 18px;
+}
+
+.menu__item-footer a:hover{
+    color: #EF4423;
+}
+
